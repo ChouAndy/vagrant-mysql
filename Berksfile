@@ -1,0 +1,11 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'selinux', '~> 0.9.0'
+cookbook 'apt', '~> 2.9.2'
+cookbook 'curl', '~> 2.0.1'
+cookbook 'git', '~> 4.3.4'
+cookbook 'mysql2_chef_gem', '~> 1.0.2'
+cookbook 'mysql', '~> 6.1.2'
+cookbook 'database', '~> 4.0.9'
+cookbook 'setup', path: 'site-cookbooks/setup'
+cookbook 'cook_mysql', path: 'site-cookbooks/cook_mysql'
